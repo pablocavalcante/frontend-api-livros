@@ -1,16 +1,35 @@
-# React + Vite
+# API - MyLib
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interface de usuário desenvolvida em React para consumir a [MyLib](https://github.com/pablocavalcante/backend-api-livros). O projeto permite gerenciar uma coleção pessoal de livros de forma visual e interativa.
 
-Currently, two official plugins are available:
+## 🖼️ Visão Geral
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Aqui está um screenshot da aplicação em um desktop.
 
-## React Compiler
+<img width="800" alt="Screenshot da Aplicação" src="https://github.com/user-attachments/assets/191c2a8b-5a16-4be3-b88e-1b27bf782a99" />
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Abaixo, um GIF demonstrando a responsividade e as funcionalidades em ação.
 
-## Expanding the ESLint configuration
+![Demonstração da Aplicação](https://raw.githubusercontent.com/pablocavalcante/frontend-api-livros/main/src/assets/teste-api.gif)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Tecnologias utilizadas
+- ReactJS
+- Vite
+- Axios
+- TailwindCSS
+
+
+## ✨ Features
+
+- **Visualização Dinâmica:** Lista todos os livros da coleção em tempo real.
+- **Adição Intuitiva:** Permite adicionar novos livros através de um formulário simples.
+- **Atualização Fácil:** Altera o status de leitura ("Lido", "Em Leitura", "Pretendo Ler") com um clique.
+- **Exclusão de Livros:** Remove livros da coleção com confirmação.
+- **Design Responsivo:** A interface se adapta a diferentes tamanhos de tela, de desktops a celulares.
+
+## Desenvolvido por
+[Pablo Cavalcante](https://www.linkedin.com/in/pablopcavalcante/)
+
+
+
